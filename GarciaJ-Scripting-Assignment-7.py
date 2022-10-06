@@ -1,6 +1,4 @@
-print("\nJesse Garcia\n" +
-      "9/25/22\n" +
-      "Scripting Assignment 7 \n\n\n")
+
 
 import sys
 import re
@@ -18,7 +16,7 @@ uPatt = re.compile(b'\w+:\/\/[\w@][\w.:@]+\/?[\w.\.?=%&=\-@$,]*')
 emailList = []
 urlList = []
 # Read in the binary file test.bin
-with open('mem.raw', 'rb') as binaryFile:
+with open('filename', 'rb') as binaryFile:
     while True:
         chunk = binaryFile.read(CHUNK_SIZE)
         if chunk:
