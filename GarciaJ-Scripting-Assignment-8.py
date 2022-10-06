@@ -1,6 +1,4 @@
-print("\nJesse Garcia\n" +
-      "9/25/22\n" +
-      "Scripting Assignment 8 \n\n\n")
+
 
 import sys
 import re
@@ -25,7 +23,7 @@ def descend_dict(d, reverse = False):
 stringList = []
 
 # reading the mem file, sending strings to list
-with open('mem.raw', 'rb') as binaryFile:
+with open('filename', 'rb') as binaryFile:
     while True:
         chunk = binaryFile.read(CHUNK_SIZE)
         if not chunk:
