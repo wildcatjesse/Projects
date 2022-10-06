@@ -1,7 +1,4 @@
-print('\nJesse Garcia\n'
-      'CYBV 473\n'
-      'Scripting Assignment 9\n'
-      'October 2nd, 2022\n')
+
 
 import os
 import requests
@@ -53,7 +50,7 @@ if __name__ == '__main__':
 
     '''Main program'''
     try:
-        url = 'https://casl.website'
+        url = 'website'
         page = requests.get(url)   # retrieve web-page
         soup = BeautifulSoup(page.text, 'html.parser')
         print('\n\n The website we are scraping is', url)
