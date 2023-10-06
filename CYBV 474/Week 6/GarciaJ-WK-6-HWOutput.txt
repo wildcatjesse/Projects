@@ -1,0 +1,20 @@
+
+Script: Week 6 Assignment
+Version 3.0
+Author: Jesus Garcia
+
+Local Time:    Local Time: Sun Oct  1 18:39:10 2023
+UTC Time:      UTC Time: Mon Oct  2 01:39:10 2023
+Invalid Time:  Invalid TimeStyle Specified
+
+Part of Speech Results
+
+           Candidate    VB   WP    DT    NN   VBZ  ... RBS PDT UH  WP$  NNP  FW
+0      Amy Klobuchar  1448  262  2392  4212   879  ...  10  23  6    1    1   7
+1     Pete Buttigieg  1528  302  2666  4537   945  ...  21  17  3    8    4   5
+2          Joe Biden  1931  369  2785  4965   940  ...  23  40  3  NaN    7   4
+3  Michael Bloomberg   335   42   500   757   142  ...   2   7  1  NaN  NaN   1
+4   Elizabeth Warren  1838  393  2630  4460  1031  ...   4  15  3   10    1   2
+5     Bernie Sanders  1219  328  2494  4276   855  ...  22  14  3    2    7  11
+
+[6 rows x 34 columns]
